@@ -1,0 +1,59 @@
+.container {
+  width:80%;
+ display:block;
+ margin: 0 auto;
+ height: auto;
+}
+.first-header{
+  font-size: 2rem;
+  font-weight: 900;
+  margin:0 auto;
+  width:80%;
+}
+
+.main-header{
+  width: 100%;
+  height:auto;
+  color: blue;
+  font-size: larger;
+  margin-bottom: 2px;
+}
+
+.main-header:hover{
+  cursor: pointer;
+}
+
+.product{
+  flex: 5;
+  padding:4px;
+  // margin-left: 0.6rem;
+  box-sizing: border-box;
+  height: 10rem;
+  width: 40%;
+  border: 2px solid black;
+  margin-top: 0.1rem;
+
+}
+
+.description{
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  padding:4px;
+}
+
+.clear{
+  clear:both;
+}
+
+.input{
+
+  text-decoration: none;
+  border-style: none;
+  padding: 0.2rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 3px;
+  text-align: center;
+}
